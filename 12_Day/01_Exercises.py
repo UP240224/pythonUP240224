@@ -20,10 +20,10 @@ def usuario_id_gen_by_user():
 usuario_id_gen_by_user()
 #3
 def rgb_color_gen():
-    Morado = random.randint(0,255)
-    Azul=random.randint(0,255)
-    Verde=random.randint(0,255)
-    return f'MAV({Morado},{Azul},{Verde})'
+    RED = random.randint(0,255)
+    GREEN=random.randint(0,255)
+    BLUE=random.randint(0,255)
+    return f'RGB({RED},{GREEN},{BLUE})'
 print(rgb_color_gen())
-#4
+
 
